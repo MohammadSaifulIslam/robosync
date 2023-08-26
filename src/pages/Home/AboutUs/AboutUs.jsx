@@ -4,7 +4,7 @@ import ButtonPrimary from '../../../components/ButtonPrimary/ButtonPrimary';
 
 const AboutUs = () => {
     return (
-        <section className="my-container mt-20">
+        <section className="my-container ">
             <div className="grid md:grid-cols-2 gap-5">
                 <div className='w-full h-full'>
                     <img
