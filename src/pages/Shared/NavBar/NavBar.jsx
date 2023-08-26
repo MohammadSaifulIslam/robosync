@@ -1,6 +1,7 @@
 
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import ButtonSecondary from '../../../components/ButtonSecondary/ButtonSecondary';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -41,8 +42,8 @@ const Navbar = () => {
                     </div>
 
                     <div className="hidden md:block">
-                        <Link className="hover:text-primary duration-300 font-medium uppercase ">
-                            Log In
+                        <Link className="">
+                            <ButtonSecondary>Log In</ButtonSecondary>
                         </Link>
                     </div>
                     <div className="md:hidden">
