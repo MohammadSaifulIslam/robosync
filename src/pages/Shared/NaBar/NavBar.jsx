@@ -16,8 +16,10 @@ const Navbar = () => {
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center">
                         <div className="flex-shrink-0">
-                            <Link className=" font-bold text-xl">
-                                RoboSync
+                            <Link >
+                                <h3 className="font-bold text-3xl text-blue-500">
+                                    RoboSync
+                                </h3>
                             </Link>
                         </div>
                     </div>
